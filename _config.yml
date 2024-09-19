@@ -1,8 +1,124 @@
-remote_theme: pages-themes/tactile@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: My Data Science Portfolio
-description: A showcase of my projects and skills.
-author: Ifigeneia Stathaki
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
+# Site settings
+title: "My Portfolio"
+description: "A showcase of my work, skills, and projects"
+theme: jekyll-theme-tactile
+url: "https://istathak.github.io/"
+baseurl: "/"
+
+# SEO & Analytics
+google_analytics: UA-XXXXXXXX-X
+permalink: pretty
+
+# Header and Introduction
+header:
+  name: "Ifigeneia Stathaki"
+  title: "Data Scientist and Analyst"
+  photo: "/assets/images/profile-photo.jpg" # Upload a professional photo to the assets folder
+  call_to_action: "Explore my work | Contact me"
+
+# Navigation Menu
+navigation:
+  - title: "About Me"
+    url: "/about"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Skills"
+    url: "/skills"
+  - title: "Resume"
+    url: "/resume"
+  - title: "Contact"
+    url: "/contact"
+
+# About Me Section
+about:
+  title: "About Me"
+  intro: "A brief introduction about yourself."
+  biography: |
+    I am currently pursuing a master’s in data science at the University of California, Irvine. In 2021, I graduated from the University of Rochester with a Bachelor’s in Biomedical Engineering. For the past 4 years, I have worked in an early stage, cardiac technology startup utilizing data analytics, predictive models, and signal processing to identify gaps in clinical research.
+  call_to_action: "Feel free to connect with me or download my resume."
+
+# Contact Information
+contact:
+  email: "istathak@uci.edu"
+  linkedin: "https://www.linkedin.com/in/your-linkedin"
+  github: "https://github.com/your-github"
+  other_links:
+    - platform: "Twitter"
+      url: "https://twitter.com/your-profile"
+    - platform: "Portfolio"
+      url: "https://<your-portfolio-url>"
+
+# Call to Action
+cta:
+  text: "Download my resume"
+  link: "/assets/resume.pdf"
+
+# Projects Section
+projects:
+  title: "Projects"
+  intro: "Here are a few of the projects I've worked on."
+  project_list:
+    - title: "Project 1"
+      thumbnail: "/assets/images/project1-thumbnail.jpg"
+      description: "Brief description of Project 1."
+      url: "/projects/project1"
+    - title: "Project 2"
+      thumbnail: "/assets/images/project2-thumbnail.jpg"
+      description: "Brief description of Project 2."
+      url: "/projects/project2"
+  detailed_view:
+    - title: "Project 1"
+      overview: "An overview of the project, its objectives and scope."
+      domain_expertise: "Details about the domain and how the project fits within it."
+      data_provenance: "Information on data sources, collection methods, and ethical considerations."
+      technical_stack: "List of tools and technologies used for the project."
+      methods: "Explanation of methodologies and problem-solving approaches."
+      results: "Key findings and outcomes of the project."
+      conclusion: "Broader applicability and impact of the project."
+
+# Skills Section
+skills:
+  title: "Skills"
+  technical_skills:
+    - "Python"
+    - "JavaScript"
+    - "HTML/CSS"
+    - "SQL"
+    - "Machine Learning"
+    - "Data Analysis"
+  soft_skills:
+    - "Communication"
+    - "Teamwork"
+    - "Problem-Solving"
+  certifications:
+    - "Data Science Certification"
+    - "AWS Certified Solutions Architect"
+
+# Resume Section
+resume:
+  title: "Resume"
+  downloadable_resume: "/assets/resume.pdf"
+  interactive_resume: "/resume.html" # Link to an interactive HTML version of your resume
+
+# Contact & Footer Section
+footer:
+  contact_form: true
+  social_links:
+    - platform: "LinkedIn"
+      url: "https://www.linkedin.com/in/your-linkedin"
+    - platform: "GitHub"
+      url: "https://github.com/your-github"
+    - platform: "Twitter"
+      url: "https://twitter.com/your-profile"
+  quick_links:
+    - title: "About"
+      url: "/about"
+    - title: "Projects"
+      url: "/projects"
+    - title: "Skills"
+      url: "/skills"
+    - title: "Resume"
+      url: "/resume"
+    - title: "Contact"
+      url: "/contact"
+
