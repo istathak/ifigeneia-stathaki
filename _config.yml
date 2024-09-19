@@ -8,7 +8,7 @@ plugins:
 # Site settings
 title: "My Portfolio"
 description: "A showcase of my work, skills, and projects"
-url: "https://<your-username>.github.io/"
+url: "https://istathak.github.io/"
 baseurl: "/"
 
 # SEO & Analytics
@@ -17,8 +17,8 @@ permalink: pretty
 
 # Header and Introduction
 header:
-  name: "Your Name"
-  title: "Your Profession or Title"
+  name: "Ifigeneia Stathaki"
+  title: "Data Scientist and Analyst"
   photo: "/assets/images/profile-photo.jpg" # Upload a professional photo to the assets folder
   call_to_action: "Explore my work | Contact me"
 
