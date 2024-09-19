@@ -1,8 +1,14 @@
+# Use the remote_theme for Tactile
+remote_theme: pages-themes/tactile@v0.2.0
+
+# Plugins (make sure the jekyll-remote-theme plugin is enabled)
+plugins:
+  - jekyll-remote-theme
+
 # Site settings
 title: "My Portfolio"
 description: "A showcase of my work, skills, and projects"
-theme: minima
-url: "https://istathak.github.io/"
+url: "https://<your-username>.github.io/"
 baseurl: "/"
 
 # SEO & Analytics
@@ -11,8 +17,8 @@ permalink: pretty
 
 # Header and Introduction
 header:
-  name: "Ifigeneia Stathaki"
-  title: "Data Scientist and Analyst"
+  name: "Your Name"
+  title: "Your Profession or Title"
   photo: "/assets/images/profile-photo.jpg" # Upload a professional photo to the assets folder
   call_to_action: "Explore my work | Contact me"
 
