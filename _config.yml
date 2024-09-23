@@ -25,15 +25,15 @@ header:
 # Navigation Menu
 navigation:
   - title: "About Me"
-    url: "/about"
+    url: "{{ site.baseurl }}/about/"
   - title: "Projects"
-    url: "/projects"
+    url: "{{ site.baseurl }}/projects/"
   - title: "Skills"
-    url: "/skills"
+    url: "{{ site.baseurl }}/skills/"
   - title: "Resume"
-    url: "/resume"
+    url: "{{ site.baseurl }}/resume/"
   - title: "Contact"
-    url: "/contact"
+    url: "{{ site.baseurl }}/contact/"
 
 # About Me Section
 about:
