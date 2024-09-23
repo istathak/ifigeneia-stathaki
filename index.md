@@ -10,5 +10,3 @@ title: "{{ site.title }}"
 - [Skills](/skills)
 - [Resume](/resume)
 - [Contact](/contact)
-  
----
