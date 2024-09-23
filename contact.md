@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Contact Info"
+permalink: /contact/
+---
+
 # Contact Information
 contact:
   email: "istathak@uci.edu"
